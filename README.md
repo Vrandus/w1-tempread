@@ -5,33 +5,37 @@ temperature reader for 1 wire temperature sensor
 
 **requires 4.7k ohms resistor for temperature sensor**
 
-![Image]("https://puu.sh/C8jMA/2cb11988e3.jpg")
+![Image](https://puu.sh/C8jMA/2cb11988e3.jpg)
 
 ## Install
 In terminal
-``bash
+
+```bash
 git clone https://github.com/Vrandus/w1-tempread.git
-``
+```
 
 ## Usage
 
 initialize pin modes
-``bash
+
+```bash
 ./initMode.sh
-``
+```
 
 prints raw temperature
-``bash
+
+```bash
 ./tempread
-``
+```
 
 prints raw sensor data followed by raw temperature
-``bash
+
+```bash
 ./tempread -v
-``
+```
 
 change default device ID
 
-``bash
+```bash
 ./tempread -d <id>
-``
+```
